@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head> 
+    <title> Petrouš Reality</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.querySelector(".hamburger");
+            const menu = document.querySelector(".menu"); 
+            hamburger.addEventListener("click", function () {
+              menu.classList.toggle("active"); 
+            });
+          });
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <p class="headerlogo">Petrouš Reality</p>
+    <div class="navbar">
+        <button class="hamburger">
+            <img src="icons/Hamburger_icon_white.svg">
+        </button>
+        <div class="menu">
+            <ul>
+                <li><a href="./main.html">Domů</a></li>
+                <li><a href="./team.html">Náš tým</a></li>
+                <li><a href="./services.html">Naše služby</a></li>
+                <li><a href="./offer.html">Nabízené nemovitosti</a></li>
+                <li><a href="./reviews.html">Reference</a></li>
+                <li><a href="./career.html">Kariéra</a></li>
+                <li><a href="./contact.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main>
+    <h1>Svědectví spokojených zákazníků</h1>
+    <p>Přečtěte si, co o nás říkají naši klienti, protože doporučení spokojeného klienta vydá na tisíc slov prodejce. Při naši práci si zakládáme na osobním přístupu, každý klient je pro nás unikát a my se snažíme každému vyjít vstříc. Jen tak můžeme dlouhodobě dosahovat skvělých výsledků a mít nespočet spokojených zákazníků.</p>
+    <table>
+        <thead>
+            <th>Klient</th>
+            <th>Klientova recenze</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>pan Jaromír, Slavkov</td>
+                <td> S panem Petroušem spolupracuji už řadu let, spravuje mi můj investiční byt v Brně a o všechny problémy se perfektně postará. Nikdy jsem nemusel nic řešit</td>
+            </tr>
+            <tr>
+                <td>paní Vladěna, Ostrava</td>
+                <td>Paní Maškovou jsem oslovila na doporučení, potřebovala jsem prodat barák po dědovi v Karviné, paní Mašková vše zařídila, našla kupce a do dvou týdnu bylo vše vyřízené. Profesionální práce.</td>
+            </tr>
+            <tr>
+                <td>Altruist Investments a.s.</td>
+                <td>S panem Petroušem jsme uzavřeli nespočet obchodů. Vždy, když máme zájem rozšířit naše nemovitostvní portfolio, ví o skvělé nabídce, která přesně pasuje našim zájmům. Jsme rádi za dlouhodobou spolupráci.</td>
+            </tr>
+            <tr>
+                <td>pan Dvořák, Praha</td>
+                <td>Nedávno jsem se rozhodl pronajmout byt na Kladně. Za velmi rozumný peníz mi poskytl vynikající služby, byt krásně nafotil, vyvinul veškeré úsilí, aby se byt pronajal, zajistil i právní servis. Já jsem jen přišel k hotovému. Navíc má skvělý nos na lidi, se svým nájemcem jsem spokojen.</td>
+            </tr>
+            <tr>
+                <td>manželé Pospěchovi, Třinec</td>
+                <td>Hledali jsme velmi specifický dům kolem Ostravy tak, abychom se do něj vešli nejen s našimi třemi dětmi, ale i babičkou, druhou babičkou, která u nás sice nebydli, ale navštěvuje nás tak často, že musí mít vlastní postel, samojedem, co chvíli neposedí. Ve své nabídce měl pan Petrouš přesně takový dům, který vyhovoval všem našim požadavkům. Jednání bylo velmi rychlé a servis perfektní. Děkujeme!</td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+<footer>
+    <div class="footerrow">
+        <div class="companyid">
+            <p> Petrouš Reality s.r.o.<br>
+                Václavské náměstí 1<br>
+                100 00 Praha<br>
+                IČ 256 65 245<br>
+            </p>
+        </div>
+
+        <div class="logofooter">
+            <img src="images/logo.bmp" alt="Petrouš Reality logo">
+        </div>
+    
+        <div class="socialmedia">
+            <p>Sledujte nás na sítích!</p>
+            <div class="socialmediaicon">
+                <ul>
+                    <li class="FB"><a href="https://www.facebook.com"><img src="icons/FB_icon.png" alt="Facebook ikona" style="width:50px"></a></li>
+                    <li class="IG"><a href="https://www.instagram.com/"><img src="icons/IG_icon.png" alt="Instagram ikona" style="width:50px"></a></li>
+                    <li class="LI"><a href="https://www.linkedin.com/"><img src="icons/LI_icon.png" alt="LinkedIn ikona" style="width:50px"></a></li>
+                    <li class="YT"><a href="https://www.youtube.com/"><img src="icons/YT_icon.png" alt="YouTube ikona" style="width:50px"></a></li>
+                </ul>    
+            </div>
+        </div>
+    </div>
+
+    <div class="footerrow">
+        <div class="copyright">
+            <p>&copy Jan Průdek, zápočtová práce kurzu KIT-KTPW1, poslední aktualiazce dne 29.12.2024, e-mail prudeja1@uhk.cz</p>
+        </div>
+    </div>
+    
+</footer>
+</body>
+</html>

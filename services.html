@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head> 
+    <title> Petrouš Reality</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.querySelector(".hamburger");
+            const menu = document.querySelector(".menu"); 
+            hamburger.addEventListener("click", function () {
+              menu.classList.toggle("active"); 
+            });
+          });
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <p class="headerlogo">Petrouš Reality</p>
+    <div class="navbar">
+        <button class="hamburger">
+            <img src="icons/Hamburger_icon_white.svg">
+        </button>
+        <div class="menu">
+            <ul>
+                <li><a href="./main.html">Domů</a></li>
+                <li><a href="./team.html">Náš tým</a></li>
+                <li><a href="./services.html">Naše služby</a></li>
+                <li><a href="./offer.html">Nabízené nemovitosti</a></li>
+                <li><a href="./reviews.html">Reference</a></li>
+                <li><a href="./career.html">Kariéra</a></li>
+                <li><a href="./contact.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main>
+    <h1>Co pro váš můžeme udělat</h1>
+    <div class="textbox">
+        <h2>Zprostředkování nákupu, prodeje či pronájmu nemovitostí</h2>
+        <p>V oblasti nemovitostí jsme jako doma! Ať už se chystáte prodat chalupu po babičce
+             nebo koupit váš vysněný byt, ve kterém strávíte ty nejkrásnější chvíle se svou rodinou, obraťte se na nás.</p>
+        <p>Díky naší dlouhodobé práci jsme vytvořili síť kontaktů a můžeme vám zprostředkovat zajímavé příležitosti - nemovitosti, 
+            co zatím nejsou na trhu, či naopak kupce, který by měl vážný zájem a přistoupil na co nejlepší podmínky pro obě strany</p>
+        <p>Ozvěte se nám a my vám poradíme.</p>
+    </div>
+    <div class="careerimg">
+        <img src="images/sold.jpg" alt="Prodej nemovitosti" class="smallpic">
+    </div>
+    <div class="textbox">
+        <h2>Správa nemovitostí</h2>
+        <p>Čas je to nejcennější, co máme. Pokud vlastníte nemovitost, o kterou se potřebujete starat, předejte tuto starost do rukou
+             profesionálů z týmu Petrouš Reality. Všechny problémy vyřešíme za vás, na konci každého měsíce vás jen předáme zprávu činnosti
+              za uplynulý měsíc. Už žádné telefonáty od nájemců, už žádné shánění opravářů, my všechno zařídíme za vás.</p>
+        <p>Ozvěte se nám ještě dnes a již zítra jdou všechny vaše problémy za námi.</p>
+    </div>
+    <div class="careerimg">
+        <img src="images/helmet.jpg" alt="Helma s dřevěnými modely domů" class="smallpic">
+    </div>
+    <div class="textbox">
+        <h2>Ocenění majetku</h2>
+        <p>Pro mnohé je nemovitost ten nejcennější majetek, který vlastní. Z tohoto důvodu je nutné umět majetek správně nacenit, ať zbytečně 
+            nepříjdete o peníze. Dokážeme pro vás vytvořit krátkou odhadní zprávu, ale i znalecký posudek opatřený razítkem soudem zapsaného znalce.</p>
+        <p>Ozvěte se nám ještě dnes a zjistěte reálnou cenu vaší nemovitosti.</p>
+    </div>
+    <div class="careerimg">
+        <img src="images/graphs.jpg" alt="Dashboard s grafy" class="smallpic">
+    </div>
+</main>
+<footer>
+    <div class="footerrow">
+        <div class="companyid">
+            <p> Petrouš Reality s.r.o.<br>
+                Václavské náměstí 1<br>
+                100 00 Praha<br>
+                IČ 256 65 245<br>
+            </p>
+        </div>
+
+        <div class="logofooter">
+            <img src="images/logo.bmp" alt="Petrouš Reality logo">
+        </div>
+    
+        <div class="socialmedia">
+            <p>Sledujte nás na sítích!</p>
+            <div class="socialmediaicon">
+                <ul>
+                    <li class="FB"><a href="https://www.facebook.com"><img src="icons/FB_icon.png" alt="Facebook ikona" style="width:50px"></a></li>
+                    <li class="IG"><a href="https://www.instagram.com/"><img src="icons/IG_icon.png" alt="Instagram ikona" style="width:50px"></a></li>
+                    <li class="LI"><a href="https://www.linkedin.com/"><img src="icons/LI_icon.png" alt="LinkedIn ikona" style="width:50px"></a></li>
+                    <li class="YT"><a href="https://www.youtube.com/"><img src="icons/YT_icon.png" alt="YouTube ikona" style="width:50px"></a></li>
+                </ul>    
+            </div>
+        </div>
+    </div>
+
+    <div class="footerrow">
+        <div class="copyright">
+            <p>&copy Jan Průdek, zápočtová práce kurzu KIT-KTPW1, poslední aktualiazce dne 29.12.2024, e-mail prudeja1@uhk.cz</p>
+        </div>
+    </div>
+    
+</footer>
+</body>
+</html>

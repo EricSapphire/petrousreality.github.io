@@ -1,0 +1,368 @@
+
+
+header, footer {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.babylonica-regular {
+    font-family: "Babylonica", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.headerlogo {
+    font-family: "Babylonica", serif;
+    width: 75%;
+    font-size: 4em;
+    text-align: center;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar {
+    margin-top: 32px;
+    position: sticky;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.navbar ul li:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, serif;
+    height: 100%;
+    max-width: 1200px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.intropic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ownerbio {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.introtext {
+    display: flex;
+    align-items: stretch;
+    gap:20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.footerrow {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.logofooter img {
+    max-width: 100%;
+    height: auto;
+    max-height: 65px;
+}
+
+.companyid {
+    margin: 12px;
+}
+
+.socialmediaicon {
+    margin-right: 2em;
+}
+
+.socialmediaicon a {
+    list-style-type: none;
+    padding: 0;
+}
+
+.socialmediaicon li {
+    display: inline;
+}
+
+.FB, .IG, .LI, .YT:hover {
+    cursor: pointer;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 12px;
+    color: darkgrey;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+#identification {
+    padding: 1em;
+    margin: 1em;
+}
+
+#identification p {
+    margin: 0;
+    padding: 0;
+}
+
+#contactinfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+#contactinfo img {
+    width: 2em;
+    margin-right: 36px;
+}
+
+#contactform {
+    width: 50%;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    margin-right: 32px;
+    padding: 12px;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#telephone, #email {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2em;
+}
+
+#contactform legend {
+    margin-bottom: 36px;
+}
+
+#contactform input {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    margin: 12px;
+}
+
+.textbox {
+    padding:36px
+}
+
+.careerimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.smallpic {
+    max-height: 300px;
+    max-width: 100%;
+    padding: 36px;
+}
+
+.flatgallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    column-gap: 16px;
+}
+
+.offerbox {
+    display: flex;
+    flex-direction: column;
+    border-color: darkgrey;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10%;
+    box-shadow: 5px 5px gray;
+    margin: 1em;
+    padding: 1em;
+}
+
+.flatgallery img {
+    max-width: 100%;
+    border-radius: 10%;
+    height: 200px;
+}
+
+.flatgallery img:hover {
+    animation-name: gallery;
+    animation-duration: 2s;
+    transform: scale(3);
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger:hover {
+    transform: scale(1.2)
+}
+
+thead {
+    margin-bottom: ;
+}
+
+td {
+    padding: 1em;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 10%;
+    }
+
+    .hamburger {
+        display: block;
+        
+    }
+
+    .menu {
+        display:none;
+        background-color: black;
+        color: white;
+        justify-content: space-around;
+        width: 200%;
+        padding: 10px;
+        position: absolute;
+    }
+
+
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding 0 16px;
+    }
+
+    .headerlogo {
+        width: 85%;
+        text-align: center;
+    }
+
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        max-width: 15%;
+        margin: auto;
+    }
+
+    main, footer, .introtext, .footerrow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu.active {
+        display: initial;
+    }
+
+    .menu.active a {
+        display: block;
+    }
+
+    .menu.active ul {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    flatgallery img:active {
+        transform: scale(3);
+    }
+
+    #contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+    #contactinfo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #identification {
+        
+        max-width: none;
+        margin-bottom: 16px;
+    }
+
+    .contactinfo {
+        margin: 0;
+        margin-left: 1em;
+    }
+
+    #contactform {
+        width: 75%;
+        margin: 0;
+    }
+}

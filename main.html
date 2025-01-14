@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head> 
+    <title> Petrouš Reality</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.querySelector(".hamburger");
+            const menu = document.querySelector(".menu"); 
+            hamburger.addEventListener("click", function () {
+              menu.classList.toggle("active"); 
+            });
+          });
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <p class="headerlogo">Petrouš Reality</p>
+    <div class="navbar">
+        <button class="hamburger">
+            <img src="icons/Hamburger_icon_white.svg">
+        </button>
+        <div class="menu">
+            <ul>
+                <li><a href="./main.html">Domů</a></li>
+                <li><a href="./team.html">Náš tým</a></li>
+                <li><a href="./services.html">Naše služby</a></li>
+                <li><a href="./offer.html">Nabízené nemovitosti</a></li>
+                <li><a href="./reviews.html">Reference</a></li>
+                <li><a href="./career.html">Kariéra</a></li>
+                <li><a href="./contact.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main>
+    <h1>Úspěch spojuje</h1>
+    <div class="introtext">
+        <div class="intropic">
+            <img src="images/JP_main.jpg" alt="Jaroslav Petrouš" style="width: 10em">
+        </div>
+        <div class="ownerbio">
+            <p>Stovky spokojených zákazníků</p>
+
+                <p>Mé jméno je Jaroslav Petrouš a realitní kancelář Petrouš Reality jsem založil v roce 1990, abych se stal partnerem těch, kdo chtěli využít nově nabyté svobody na realitním trhu. Od té doby jsem se stal partnerem více než stovky spokojených klientů, můj tým se výrazně rozrostl a Petrouš Reality se jako značka stala pevnou součástí Českého realitního rybníčku.</p>
+                
+                <p>Mezi naše principy patří férovost, transparentnost a cílem je vždy spokojenost všech zúčastněných stran. Jen tak si lze vybudovat dobré jméno, aby se k vám lidé stále vraceli. A o spokojené lidi nám jde vždy na prvním místě!</p>
+                
+                <p>Ozvěte se nám a my vás provedeme mořem realit.</p>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footerrow">
+        <div class="companyid">
+            <p> Petrouš Reality s.r.o.<br>
+                Václavské náměstí 1<br>
+                100 00 Praha<br>
+                IČ 256 65 245<br>
+            </p>
+        </div>
+
+        <div class="logofooter">
+            <img src="images/logo.bmp" alt="Petrouš Reality logo">
+        </div>
+    
+        <div class="socialmedia">
+            <p>Sledujte nás na sítích!</p>
+            <div class="socialmediaicon">
+                <ul>
+                    <li class="FB"><a href="https://www.facebook.com"><img src="icons/FB_icon.png" alt="Facebook ikona" style="width:50px"></a></li>
+                    <li class="IG"><a href="https://www.instagram.com/"><img src="icons/IG_icon.png" alt="Instagram ikona" style="width:50px"></a></li>
+                    <li class="LI"><a href="https://www.linkedin.com/"><img src="icons/LI_icon.png" alt="LinkedIn ikona" style="width:50px"></a></li>
+                    <li class="YT"><a href="https://www.youtube.com/"><img src="icons/YT_icon.png" alt="YouTube ikona" style="width:50px"></a></li>
+                </ul>    
+            </div>
+        </div>
+    </div>
+
+    <div class="footerrow">
+        <div class="copyright">
+            <p>&copy Jan Průdek, zápočtová práce kurzu KIT-KTPW1, poslední aktualiazce dne 29.12.2024, e-mail prudeja1@uhk.cz</p>
+        </div>
+    </div>
+    
+</footer>
+</body>
+</html>

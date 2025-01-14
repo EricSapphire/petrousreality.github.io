@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head> 
+    <title> Petrouš Reality</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.querySelector(".hamburger");
+            const menu = document.querySelector(".menu"); 
+            hamburger.addEventListener("click", function () {
+              menu.classList.toggle("active"); 
+            });
+          });
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <p class="headerlogo">Petrouš Reality</p>
+    <div class="navbar">
+        <button class="hamburger">
+            <img src="icons/Hamburger_icon_white.svg">
+        </button>
+        <div class="menu">
+            <ul>
+                <li><a href="./main.html">Domů</a></li>
+                <li><a href="./team.html">Náš tým</a></li>
+                <li><a href="./services.html">Naše služby</a></li>
+                <li><a href="./offer.html">Nabízené nemovitosti</a></li>
+                <li><a href="./reviews.html">Reference</a></li>
+                <li><a href="./career.html">Kariéra</a></li>
+                <li><a href="./contact.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main>
+    <h1>Naše nabídka nemovitostí, vyberete si tu svou?</h1>
+    <h2>Prodej</h2>
+    <div class="flatgallery">
+        <div class="offerbox">
+            <img src="images/s1.jpg" alt="Byt Libeň">
+            <p>Praha-Libeň, ul. Podlipného</p>
+            <p>byt 3+1 o výměře 82m<sup>2</sup></p>
+            <p>cena 8 999 000 Kč</p>
+            <button>Kontaktovat</button>
+        </div>
+        <div class="offerbox">
+            <img src="images/s2.jpg" alt="Byt Dejvice">
+            <p>Praha-Dejvice, ul. Kafkova</p>
+            <p>byt 2+1 o výměře 50m<sup>2</sup></p>
+            <p>cena 7 599 000 Kč</p>
+            <button>Kontaktovat</button>
+        </div>
+        <div class="offerbox">
+            <img src="images/s3.jpg" alt="Byt Líšeň">
+            <p>Brno-Líšeň, ul. Bartákova</p>
+            <p>byt 4+kk o výměře 95m<sup>2</sup></p>
+            <p>cena 9 999 000 Kč</p>
+            <button>Kontaktovat</button>
+        </div>
+        <div class="offerbox">
+            <img src="images/s4.jpg" alt="Byt Nivy">
+            <p>Zlín-Nivy, ul. Nivy III</p>
+            <p>vila 5+1 o výměře 120m<sup>2</sup></p>
+            <p>cena 14 999 000 Kč</p>
+            <button>Kontaktovat</button>
+        </div>
+        <div class="offerbox">
+            <img src="images/s5.jpg" alt="Byt Vítkovice">
+            <br>
+            <p>Ostrava-Vítkovice, ul. Šalounova</p>
+            <p>byt 1+1 o výměře 32m<sup>2</sup></p>
+            <p>cena 1 999 000 Kč</p>
+            <button>Kontaktovat</button>
+        </div>
+        <div class="offerbox">
+            <img src="./flats/s6.jpg" alt="Byt Hradec Králové">
+            <p>Hradec Králové, ul. Oldřichova </p>
+            <p>byt 3+1 o výměře 75m<sup>2</sup></p>
+            <p>cena 4 999 000 Kč</p>
+            <button>Kontaktovat</button>
+        </div>
+    </div>
+    <h2>Pronájem</h2>
+    <div class="flatgallery">
+        <div class="offerbox">
+            <img src="images/r1.jpg" alt="Byt Pardubice">
+            <p>Pardubice, ul. Wintrova</p>
+            <p>byt 3+1 o výměře 80m<sup>2</sup></p>
+            <p>cena 13 000 Kč/měsíc</p>
+            <button>Kontaktovat</button>
+        </div>
+        <div class="offerbox">
+            <img src="images/r2.jpg" alt="Byt Modřany">
+            <p>Praha-Modřany, ul. Pejevové</p>
+            <p>byt 3+1 o výměře 90m<sup>2</sup></p>
+            <p>cena 20 000 Kč/měsíc</p>
+            <button>Kontaktovat</button>
+        </div>
+        <div class="offerbox">
+            <img src="images/r3.jpg" alt="Byt Chodov">
+            <p>Praha-Chodov, ul. Brandlova</p>
+            <p>byt 2+kk o výměře 62m<sup>2</sup></p>
+            <p>cena 19 000 Kč/měsíc</p>
+            <button>Kontaktovat</button>
+        </div>
+        <div class="offerbox">
+            <img src="images/r4.jpg" alt="Byt Zlín">
+            <p>Zlín-Jižní Svahy, ul. Slunečná</p>
+            <p>byt 3+1 o výměře 91m<sup>2</sup></p>
+            <p>cena 18 000 Kč/měsíčně</p>
+            <button>Kontaktovat</button>
+        </div>
+        <div class="offerbox">
+            <img src="images/r5.jpg" alt="Byt Bystrc">
+            <p>Brno-Bystrc, ul. Ečerova</p>
+            <p>byt 1+kk o výměře 25m<sup>2</sup></p>
+            <p>cena 12 000 Kč/měsíčně</p>
+            <button>Kontaktovat</button>
+        </div>
+        <div class="offerbox">
+            <img src="images/r6.jpg" alt="Byt Plzeň">
+            <p>Plzeň-Vnitřní Město, ul. Riegrova</p>
+            <p>byt 4+1 o výměře 95m<sup>2</sup></p>
+            <p>cena 28 000 Kč/měsíčně</p>
+            <button>Kontaktovat</button>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footerrow">
+        <div class="companyid">
+            <p> Petrouš Reality s.r.o.<br>
+                Václavské náměstí 1<br>
+                100 00 Praha<br>
+                IČ 256 65 245<br>
+            </p>
+        </div>
+
+        <div class="logofooter">
+            <img src="images/logo.bmp" alt="Petrouš Reality logo">
+        </div>
+    
+        <div class="socialmedia">
+            <p>Sledujte nás na sítích!</p>
+            <div class="socialmediaicon">
+                <ul>
+                    <li class="FB"><a href="https://www.facebook.com"><img src="icons/FB_icon.png" alt="Facebook ikona" style="width:50px"></a></li>
+                    <li class="IG"><a href="https://www.instagram.com/"><img src="icons/IG_icon.png" alt="Instagram ikona" style="width:50px"></a></li>
+                    <li class="LI"><a href="https://www.linkedin.com/"><img src="icons/LI_icon.png" alt="LinkedIn ikona" style="width:50px"></a></li>
+                    <li class="YT"><a href="https://www.youtube.com/"><img src="icons/YT_icon.png" alt="YouTube ikona" style="width:50px"></a></li>
+                </ul>    
+            </div>
+        </div>
+    </div>
+
+    <div class="footerrow">
+        <div class="copyright">
+            <p>&copy Jan Průdek, zápočtová práce kurzu KIT-KTPW1, poslední aktualiazce dne 29.12.2024, e-mail prudeja1@uhk.cz</p>
+        </div>
+    </div>
+    
+</footer>
+</body>
+</html>
