@@ -22,13 +22,8 @@ header {
   }
 
 .headerlogo {
-    font-family: "Babylonica", serif;
     width: 75%;
-    font-size: 4em;
-    text-align: center;
-    padding: 5px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding: 15px;
 }
 
 .navbar {
@@ -63,9 +58,8 @@ body {
     flex-direction: column;
     font-family: Georgia, serif;
     height: 100%;
-    max-width: 1200px;
-    margin-left: 25%;
-    margin-right: 25%;
+    padding-left: 17%;
+    padding-right: 17%;
 }
 
 main {
@@ -81,13 +75,19 @@ main {
 .ownerbio {
     display: flex;
     flex-direction: column;
-    text-align: justify;
 }
 
 .introtext {
     display: flex;
     align-items: stretch;
     gap:20px;
+    border-color: darkgrey;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2%;
+    box-shadow: 5px 5px gray;
+    margin: 1em;
+    padding: 1em;
 }
 
 footer {
@@ -166,6 +166,13 @@ footer {
     flex-direction: column;
     margin-top: 36px;
     margin-bottom: 36px;
+    border-color: darkgrey;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2%;
+    box-shadow: 5px 5px gray;
+    margin: 1em;
+    padding: 1em;
 }
 
 #contactinfo img {
@@ -174,12 +181,13 @@ footer {
 }
 
 #contactform {
-    width: 50%;
-    border-width: 1px;
-    border-color: gray;
+    border-color: darkgrey;
+    border-width: 2px;
     border-style: solid;
-    margin-right: 32px;
-    padding: 12px;
+    border-radius: 2%;
+    box-shadow: 5px 5px gray;
+    margin: 1em;
+    padding: 1em;
 }
 
 #contacts {
@@ -211,7 +219,17 @@ button {
 }
 
 .textbox {
-    padding:36px
+    padding:36px;
+}
+
+.servicebox {
+    border-color: darkgrey;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2%;
+    box-shadow: 5px 5px gray;
+    margin: 1em;
+    padding: 1em;
 }
 
 .careerimg {
@@ -280,12 +298,12 @@ td {
     body {
         display: flex;
         flex-direction: column;
-        margin: 10%;
+        padding:0;
     }
 
     .hamburger {
         display: block;
-        
+        z-index: 20;
     }
 
     .menu {
@@ -293,7 +311,6 @@ td {
         background-color: black;
         color: white;
         justify-content: space-around;
-        width: 200%;
         padding: 10px;
         position: absolute;
     }
@@ -326,6 +343,8 @@ td {
 
     .menu.active {
         display: initial;
+        position:absolute;
+        left:-1rem;
     }
 
     .menu.active a {
@@ -341,7 +360,7 @@ td {
         width: 100%;
     }
 
-    flatgallery img:active {
+    .flatgallery img:active {
         transform: scale(3);
     }
 
