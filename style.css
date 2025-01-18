@@ -276,6 +276,7 @@ button {
 
 .hamburger {
     background: none;
+    width: 15%;
     border: none;
     color: white;
     cursor: pointer;
@@ -304,6 +305,7 @@ td {
     .hamburger {
         display: block;
         z-index: 20;
+        width: 15%;
     }
 
     .menu {
